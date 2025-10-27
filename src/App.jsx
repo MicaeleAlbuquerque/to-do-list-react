@@ -32,7 +32,7 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <h1>Lista de Tarefas</h1>
+        <h1 className='text-bg-secondary p-3'>Cadastro de Tarefas</h1>
         <Header />
         <FormularioDeTarefa onAdd={adicionarTarefa} />
         <Routes>

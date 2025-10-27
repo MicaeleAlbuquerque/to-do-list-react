@@ -3,7 +3,7 @@ function ItemDaTarefa({ tarefa, onToggle, onRemove }) {
     <li className={`task-item ${tarefa.concluida ? 'completed' : ''}`}>
       <span onClick={() => onToggle(tarefa.id)}>{tarefa.texto}</span>
       <div className="task-item-actions">
-        <button onClick={() => onRemove(tarefa.id)}>X</button>
+        <button className="btn btn-danger" onClick={() => onRemove(tarefa.id)}>Excluir</button>
       </div>
     </li>
   );

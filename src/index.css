@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
+  background-color: #1E1E2F;
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,10 +10,10 @@ body {
 }
 
 .app-container {
-  background-color: #fff;
+  background-color: #6d6d96;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 4px 6px rgba(255, 255, 255, 0.229);
   width: 100%;
   max-width: 600px;
   margin: 2rem;
@@ -21,7 +21,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #1f1c4c;
 }
 
 .task-form {
@@ -33,7 +33,7 @@ h1 {
 .task-form input {
   flex-grow: 1;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #838383;
   border-radius: 4px;
 }
 
@@ -54,6 +54,7 @@ h1 {
 .task-list {
   list-style: none;
   padding: 0;
+  color: #FFD93D;
 }
 
 .task-item {
@@ -61,7 +62,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 .task-item:last-child {
@@ -70,7 +71,7 @@ h1 {
 
 .task-item.completed span {
   text-decoration: line-through;
-  color: #999;
+  color: #FFFFFF;
 }
 
 .task-item-actions button {
@@ -89,7 +90,7 @@ h1 {
 
 .header-nav a {
   text-decoration: none;
-  color: #007bff;
+  color: #0b1a42;
   font-weight: bold;
   padding: 5px 10px;
   border-radius: 4px;
